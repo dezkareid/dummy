@@ -14,7 +14,7 @@
       }
     ],
     [
-      "@semantic-release/npm",
+      "@anolilab/semantic-release-pnpm",
       {
         "provenance": true
       }
