@@ -3,7 +3,7 @@
     "main",
     "next"
   ],
-  "tagFormat": "design-tokens-v${version}",
+  "tagFormat": "dummy-v${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
