@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/dezkareid/dummy/compare/dummy-v1.0.0...dummy-v1.0.1) (2026-02-05)
+
+
+### Bug Fixes
+
+* remove local semantic-release to use action ([fe9ede7](https://github.com/dezkareid/dummy/commit/fe9ede7d6ee22e9b31463378f5072a6f7b6166ad))
+* semantic release config ([c75d147](https://github.com/dezkareid/dummy/commit/c75d1479eb6f5db88c2062cd34ad3a8998b4f322))
+
 # 1.0.0 (2026-02-03)
 
 
