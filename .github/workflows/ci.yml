@@ -29,6 +29,13 @@ jobs:
         shell: bash
         run: pnpm install --frozen-lockfile
       - name: Release
+        uses: cycjimmy/semantic-release-action@v6
+        with:
+          branches: '["main", "next"]'
+          tag_format: "dummy-v${version}"
+          extra_plugins: |
+            @anolilab/semantic-release-pnpm
+            @semantic-release/changelog
+            @semantic-release/git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm semantic-release
