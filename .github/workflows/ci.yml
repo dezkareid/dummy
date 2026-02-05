@@ -28,6 +28,8 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: pnpm install --frozen-lockfile
+      - name: Create config for release
+        run: cp .github/workflows/.releaserc.template .releaserc
       - name: Release
         uses: cycjimmy/semantic-release-action@v6
         with:
